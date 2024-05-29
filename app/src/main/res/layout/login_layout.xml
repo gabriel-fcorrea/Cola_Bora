@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashC"
+                android:textColor="@color/blueText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashO"
+                android:textColor="@color/yellowText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashL"
+                android:textColor="@color/greenText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashA"
+                android:textColor="@color/blueText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashSymbol1"
+                android:textColor="@color/yellowText"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashB"
+                android:textColor="@color/greenText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashO"
+                android:textColor="@color/blueText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashR"
+                android:textColor="@color/yellowText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashA"
+                android:textColor="@color/greenText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashSymbol2"
+                android:textColor="@color/white"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        style="@style/EditText_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:drawableEnd="@drawable/icon_person"
+        android:hint="@string/loginEmail"
+        android:padding="18dp" />
+
+    <EditText
+        style="@style/EditText_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:drawableEnd="@drawable/icon_lock"
+        android:hint="@string/loginSenha"
+        android:padding="18dp" />
+
+    <CheckBox
+        style="@style/Comment_Style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="@string/loginMostrar" />
+
+    <Button
+        style="@style/Button_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/loginEntrar"
+        android:backgroundTint="@color/greenText" />
+
+    <Button
+        style="@style/Button_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/loginCadastro" />
+
+
+</LinearLayout>

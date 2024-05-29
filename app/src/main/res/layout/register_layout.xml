@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        style="@style/Text_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Cadastre-se abaixo"
+        android:textAlignment="center"
+        android:textColor="@color/blueText"/>
+
+    <EditText
+        style="@style/EditText_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/registerNome"
+        android:padding="18dp" />
+
+    <EditText
+        style="@style/EditText_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/registerCPF"
+        android:padding="18dp" />
+
+    <EditText
+        style="@style/EditText_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/registerEmail"
+        android:padding="18dp" />
+
+    <EditText
+        style="@style/EditText_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/registerSenha"
+        android:padding="18dp" />
+
+    <CheckBox
+        style="@style/Comment_Style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="@string/registerMostrar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp">
+
+        <Button
+            style="@style/Button_Style"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/registerVoltar"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            style="@style/Button_Style"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/registerCadastrar"
+            android:backgroundTint="@color/greenText"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

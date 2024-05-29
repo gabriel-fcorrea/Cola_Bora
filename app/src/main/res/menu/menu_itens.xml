@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/main_item"
+        android:checkableBehavior="single"
+        android:title="@string/navigationTitle1">
+        <menu>
+            <item
+                android:id="@+id/timeline"
+                android:checkable="true"
+                android:icon="@drawable/icon_newspaper"
+                android:title="@string/navigationTimeline"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/loading"
+                android:checkable="true"
+                android:icon="@drawable/icon_front_loader"
+                android:title="@string/navigationLoading"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/conquest"
+                android:checkable="true"
+                android:icon="@drawable/icon_conquest"
+                android:title="@string/navigationConquests"
+                app:showAsAction="ifRoom" />
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/main_item_2"
+        android:checkableBehavior="single"
+        android:title="@string/navigationTitle2">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:checkable="true"
+                android:icon="@drawable/icon_settings"
+                android:title="@string/navigationSettings"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/exit"
+                android:checkable="true"
+                android:icon="@drawable/icon_exit"
+                android:title="@string/navigationExit"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

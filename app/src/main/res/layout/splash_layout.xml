@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashC"
+                android:textColor="@color/blueText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashO"
+                android:textColor="@color/yellowText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashL"
+                android:textColor="@color/greenText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashA"
+                android:textColor="@color/blueText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashSymbol1"
+                android:textColor="@color/yellowText"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashB"
+                android:textColor="@color/greenText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashO"
+                android:textColor="@color/blueText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashR"
+                android:textColor="@color/yellowText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashA"
+                android:textColor="@color/greenText"
+                android:textSize="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lilita_one"
+                android:shadowColor="@color/shadowText"
+                android:shadowDx="12"
+                android:shadowRadius="10"
+                android:text="@string/splashSymbol2"
+                android:textColor="@color/white"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp" />
+
+</RelativeLayout>

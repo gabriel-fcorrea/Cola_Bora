@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Cola &amp; Bora</string>
+    <string name="slogan">Colaborar para progredir.</string>
+
+    <string name="splashC">C</string>
+    <string name="splashO">O</string>
+    <string name="splashL">L</string>
+    <string name="splashA">A</string>
+    <string name="splashSymbol1">&amp;</string>
+    <string name="splashB">B</string>
+    <string name="splashR">R</string>
+    <string name="splashSymbol2">&gt;</string>
+
+    <string name="loginEmail">E-mail</string>
+    <string name="loginSenha">Senha</string>
+    <string name="loginMostrar">Mostrar senha</string>
+    <string name="loginEntrar">Entrar</string>
+    <string name="loginCadastro">Criar Conta</string>
+
+    <string name="registerEmail">E-mail</string>
+    <string name="registerNome">Nome Completo</string>
+    <string name="registerSenha">Senha</string>
+    <string name="registerCPF">CPF</string>
+    <string name="registerMostrar">Mostrar senha</string>
+    <string name="registerVoltar">Voltar</string>
+    <string name="registerCadastrar">Cadastrar</string>
+
+    <string name="navigationTitle1">Navegar</string>
+    <string name="navigationTitle2">Gerenciar</string>
+    <string name="navigationTimeline">Feed</string>
+    <string name="navigationLoading">Obras em andamento</string>
+    <string name="navigationConquests">Obras concluídas</string>
+    <string name="navigationSettings">Configurações</string>
+    <string name="navigationExit">Sair</string>
+    <string name="navigationHigh">Em alta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="postTitle">Título da publicação</string>
+    <string name="postInsert">Inicie uma publicação…</string>
+    <string name="postReference">Local de Referência</string>
+    <string name="postBoost">Dar um Boost!</string>
+
+</resources>
