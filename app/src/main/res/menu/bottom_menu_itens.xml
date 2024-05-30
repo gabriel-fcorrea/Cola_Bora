@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/item_1"
+        android:id="@+id/bottom_item1"
         android:enabled="true"
         android:icon="@drawable/icon_fire"
         android:title="@string/navigationHigh" />
     <item
-        android:id="@+id/item_2"
+        android:id="@+id/bottom_item2"
         android:enabled="true"
         android:icon="@drawable/icon_front_loader"
         android:title="@string/navigationLoading"/>
     <item
-        android:id="@+id/item_3"
+        android:id="@+id/bottom_item3"
         android:enabled="true"
         android:icon="@drawable/icon_conquest"
         android:title="@string/navigationConquests"/>

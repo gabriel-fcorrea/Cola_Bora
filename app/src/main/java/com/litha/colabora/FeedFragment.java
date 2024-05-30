@@ -37,12 +37,12 @@ public class FeedFragment extends Fragment {
 
         recyclerView = view.findViewById(R.id.recview_feed);
         items = new ArrayList<>();
-        items.add("Cadr 1");
-        items.add("Cadr 2");
-        items.add("Cadr 3");
-        items.add("Cadr 4");
-        items.add("Cadr 5");
-        items.add("Cadr 6");
+        items.add("Buraco na via");
+        items.add("Via interditada");
+        items.add("Alagamento");
+        items.add("Risco de queda de árvore");
+        items.add("Acidente de trânsito");
+        items.add("Hospital sem recursos");
 
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
