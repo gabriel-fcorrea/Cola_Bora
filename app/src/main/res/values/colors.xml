@@ -11,5 +11,6 @@
     <color name="shadowText">#6F000000</color>
     <color name="greyText">#232323</color>
     <color name="transparent">#0C000000</color>
+    <color name="backgroundColor">#C1C1C1</color>
 
 </resources>
